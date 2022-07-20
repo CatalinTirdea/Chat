@@ -1,0 +1,181 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+    background: #67B26F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    width: 500px;
+    height: 850px;
+    background-color: #FFFFF3;
+    border: 13px solid grey;
+    border-radius: 46px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.messages {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow-y: scroll;
+
+
+
+}
+
+#message {
+    width: 450px;
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 70px;
+    background-color: #C37D92;
+    border: none;
+}
+
+.navbar {
+    width: 500px;
+    border-bottom: 1px solid black;
+    background-color: #C37D92;
+    border-radius: 30px;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    color: #753742;
+    text-decoration: none;
+    list-style: none;
+    background: transparent;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    background: transparent;
+}
+
+.bottombar {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    border-radius: 30px;
+    background-color: #C37D92;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: #CED3DC;
+    border-radius: 30px;
+    width: 200px;
+    margin-left: 50%;
+    height: 50px;
+    align-items: center;
+    position: relative;
+
+}
+
+button {
+    background: transparent;
+    border: none;
+
+}
+
+ul li {
+    background: transparent;
+}
+
+li img {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+li svg {
+    margin-right: 20px;
+}
+
+input ::placeholder {
+    background-color: black;
+}
+
+@media (max-width:626px) {
+    .container {
+        width: 300px;
+        height: 600px;
+
+    }
+
+    .navbar {
+        height: 100px;
+        width: 300px;
+
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .messages {
+        height: 400px;
+    }
+
+    .bottombar {
+        height: 100px;
+        width: 300px;
+    }
+
+    #message {
+        width: 300px;
+        height: 80px;
+    }
+
+
+    li img {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+
+
+
+}
