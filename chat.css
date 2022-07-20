@@ -82,13 +82,16 @@ body {
     justify-content: center;
     margin-right: 30px;
     margin-bottom: 20px;
-    background-color: #CED3DC;
+    background-color: #0066CC;
     border-radius: 30px;
     width: 200px;
     margin-left: 50%;
     height: 50px;
     align-items: center;
     position: relative;
+    color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 41px 44px 0px 40px;
 
 }
 
@@ -179,3 +182,23 @@ input ::placeholder {
 
 
 }
+
+/* 
+.btn{
+
+    .btn{
+
+font-family: Lato;
+font-weight: 495;
+font-size: 15px;
+color: #fff;
+background-color: #0066CC;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+border-radius: 41px 44px 0px 40px;
+transition : 1000ms;
+transform: translateY(0);
+text-transform: lowercase;
+}
+    } */
